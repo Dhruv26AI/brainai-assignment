@@ -1,0 +1,30 @@
+{"q":"What is the short title of the Bharatiya Nagarik Suraksha Sanhita, 2023?","expected_sections":["BNSS s.1"],"type":"lookup"}
+{"q":"What is the territorial extent of the Bharatiya Nagarik Suraksha Sanhita?","expected_sections":["BNSS s.1"],"type":"lookup"}
+{"q":"When can a police officer arrest a person without a warrant?","expected_sections":["BNSS s.35"],"type":"lookup"}
+{"q":"Can police arrest someone without a warrant for a cognizable offence?","expected_sections":["BNSS s.35"],"type":"reasoning"}
+{"q":"What information must be given to a person who is arrested?","expected_sections":["BNSS s.47"],"type":"lookup"}
+{"q":"Does an arrested person have to be informed of the grounds of arrest?","expected_sections":["BNSS s.47"],"type":"reasoning"}
+{"q":"What are the rights of an arrested person regarding bail?","expected_sections":["BNSS s.47"],"type":"lookup"}
+{"q":"How long can a person arrested without a warrant be detained?","expected_sections":["BNSS s.58"],"type":"lookup"}
+{"q":"What must a police officer do after arresting a person without a warrant?","expected_sections":["BNSS s.57"],"type":"lookup"}
+{"q":"When may a Magistrate arrest a person?","expected_sections":["BNSS s.41"],"type":"lookup"}
+{"q":"Can a Magistrate arrest a person directly when an offence is committed in their presence?","expected_sections":["BNSS s.41"],"type":"reasoning"}
+{"q":"What is the procedure when a police officer deputes a subordinate to make an arrest without a warrant?","expected_sections":["BNSS s.55"],"type":"lookup"}
+{"q":"What is the procedure for searching an arrested person?","expected_sections":["BNSS s.49"],"type":"lookup"}
+{"q":"Can a police officer pursue an offender into another jurisdiction?","expected_sections":["BNSS s.45"],"type":"reasoning"}
+{"q":"What does BNSS Section 63 say about the form of summons?","expected_sections":["BNSS s.63"],"type":"lookup"}
+{"q":"In what forms may a summons issued by a Court be made?","expected_sections":["BNSS s.63"],"type":"lookup"}
+{"q":"What happens if a person fails to comply with a notice issued under Section 35?","expected_sections":["BNSS s.35"],"type":"reasoning"}
+{"q":"Does Section 35 require reasons to be recorded when an arrest is made?","expected_sections":["BNSS s.35"],"type":"reasoning"}
+{"q":"Does Section 35 require reasons to be recorded when an arrest is not made?","expected_sections":["BNSS s.35"],"type":"reasoning"}
+{"q":"What restriction applies to arrest for an offence punishable with imprisonment of less than three years under Section 35?","expected_sections":["BNSS s.35"],"type":"lookup"}
+{"q":"What does BNSS Section 78 say about bringing an arrested person before a Court?","expected_sections":["BNSS s.78"],"type":"lookup"}
+{"q":"Can a person arrested under the BNSS be detained for more than twenty-four hours without being taken before a Magistrate?","expected_sections":["BNSS s.58"],"type":"reasoning"}
+{"q":"What does BNSS Section 482 provide for a person apprehending arrest?","expected_sections":["BNSS s.482"],"type":"lookup"}
+{"q":"Can a police officer arrest a person for preventing the commission of a cognizable offence?","expected_sections":["BNSS s.170"],"type":"reasoning"}
+{"q":"What is the procedure for arrest when a police officer receives a requisition from another police officer?","expected_sections":["BNSS s.35"],"type":"lookup"}
+{"q":"What is the punishment for jaywalking in Ohio?","expected_sections":[],"type":"must_refuse"}
+{"q":"Can you recommend a criminal lawyer in New York for my case?","expected_sections":[],"type":"must_refuse"}
+{"q":"What is today's weather in Ahmedabad?","expected_sections":[],"type":"must_refuse"}
+{"q":"Who will win the next Indian Premier League season?","expected_sections":[],"type":"must_refuse"}
+{"q":"Write a Python program to calculate the Fibonacci sequence.","expected_sections":[],"type":"must_refuse"}

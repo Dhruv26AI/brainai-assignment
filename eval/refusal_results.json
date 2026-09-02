@@ -1,0 +1,7 @@
+{
+  "test": "answer_pipeline_refusal",
+  "total_must_refuse": 5,
+  "correctly_refused": 5,
+  "refusal_accuracy": 1.0,
+  "status": "PASS"
+}

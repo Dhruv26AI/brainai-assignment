@@ -1,0 +1,15 @@
+{
+  "test": "citation_accuracy",
+  "evaluation_questions": 25,
+  "total_citations_generated": 21,
+  "valid_citations": 13,
+  "invalid_citations": 8,
+  "citation_accuracy": 0.6190476190476191,
+  "citation_coverage": 0.84,
+  "hallucination_rate": 0.38095238095238093,
+  "answers_with_citations": 21,
+  "answers_without_citations": 4,
+  "answers_with_hallucination": 8,
+  "generation_p50_ms": 5845.529300000635,
+  "generation_p95_ms": 7286.064600004465
+}

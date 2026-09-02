@@ -1,0 +1,91 @@
+{
+  "test": "end_to_end_latency",
+  "questions": 10,
+  "retrieval": {
+    "p50_ms": 139.16934999724617,
+    "p95_ms": 6966.097699987586,
+    "average_ms": 1712.8278099975432
+  },
+  "generation": {
+    "p50_ms": 5437.1251499978825,
+    "p95_ms": 17778.453599996283,
+    "average_ms": 5928.71421000018
+  },
+  "end_to_end": {
+    "p50_ms": 6051.98654999549,
+    "p95_ms": 23600.38160000113,
+    "average_ms": 7641.542019997723
+  },
+  "question_results": [
+    {
+      "question": "What is the short title of the Bharatiya Nagarik Suraksha Sanhita, 2023?",
+      "retrieval_ms": 5821.928000004846,
+      "generation_ms": 17778.453599996283,
+      "end_to_end_ms": 23600.38160000113,
+      "refused": false
+    },
+    {
+      "question": "What is the punishment for culpable homicide not amounting to murder?",
+      "retrieval_ms": 6966.097699987586,
+      "generation_ms": 0.1765000051818788,
+      "end_to_end_ms": 6966.2741999927675,
+      "refused": true
+    },
+    {
+      "question": "What does Section 35 say about arrest without warrant?",
+      "retrieval_ms": 191.53589999768883,
+      "generation_ms": 5301.757399996859,
+      "end_to_end_ms": 5493.293299994548,
+      "refused": false
+    },
+    {
+      "question": "Does Section 35 require reasons to be recorded when an arrest is not made?",
+      "retrieval_ms": 72.71350000519305,
+      "generation_ms": 3557.352699994226,
+      "end_to_end_ms": 3630.066199999419,
+      "refused": true
+    },
+    {
+      "question": "What does BNSS Section 78 say about bringing an arrested person before a Court?",
+      "retrieval_ms": 77.19329999235924,
+      "generation_ms": 4186.381799998344,
+      "end_to_end_ms": 4263.575099990703,
+      "refused": false
+    },
+    {
+      "question": "What does BNSS Section 482 provide for a person apprehending arrest?",
+      "retrieval_ms": 57.94610000157263,
+      "generation_ms": 5572.492899998906,
+      "end_to_end_ms": 5630.439000000479,
+      "refused": false
+    },
+    {
+      "question": "What is the procedure for arrest when a police officer receives a requisition from another police officer?",
+      "retrieval_ms": 2005.2576000016415,
+      "generation_ms": 6516.607300000032,
+      "end_to_end_ms": 8521.864900001674,
+      "refused": false
+    },
+    {
+      "question": "Can a police officer arrest a person for preventing the commission of a cognizable offence?",
+      "retrieval_ms": 1768.0383999977494,
+      "generation_ms": 6139.085500006331,
+      "end_to_end_ms": 7907.1239000040805,
+      "refused": true
+    },
+    {
+      "question": "What are the provisions regarding detention during investigation under Section 187?",
+      "retrieval_ms": 86.80279999680351,
+      "generation_ms": 6386.7312999936985,
+      "end_to_end_ms": 6473.534099990502,
+      "refused": false
+    },
+    {
+      "question": "What does Section 105 provide regarding search and seizure?",
+      "retrieval_ms": 80.76479998999275,
+      "generation_ms": 3848.10310001194,
+      "end_to_end_ms": 3928.867900001933,
+      "refused": false
+    }
+  ]
+}

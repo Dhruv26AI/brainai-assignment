@@ -1,0 +1,27 @@
+{
+  "golden_set": "eval/golden_set.jsonl",
+  "configurations": {
+    "dense_plus_reranker": {
+      "configuration": "CONFIGURATION 1 - DENSE + CROSS-ENCODER",
+      "questions": 30,
+      "retrieval_questions": 25,
+      "must_refuse": 5,
+      "recall@5": 0.92,
+      "recall@10": 0.96,
+      "mrr": 0.8566666666666667,
+      "retrieval_p50_ms": 585.66069999506,
+      "retrieval_p95_ms": 2519.7775999986334
+    },
+    "dense_only": {
+      "configuration": "CONFIGURATION 2 - DENSE-ONLY",
+      "questions": 30,
+      "retrieval_questions": 25,
+      "must_refuse": 5,
+      "recall@5": 0.68,
+      "recall@10": 0.92,
+      "mrr": 0.5087142857142857,
+      "retrieval_p50_ms": 69.34020000335295,
+      "retrieval_p95_ms": 86.26820000063162
+    }
+  }
+}
