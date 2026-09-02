@@ -2,6 +2,9 @@
 
 ## 1. System Overview
 
+
+## 1. System Overview
+
 ```mermaid
 flowchart TD
     U[User] --> API[FastAPI]
@@ -11,7 +14,7 @@ flowchart TD
     Q --> F[RRF]
     B --> F
     F --> CE[Cross-Encoder]
-    CE --> LLM[Ollama]
+    CE --> LLM[Ollama llama3.2:3b]
     LLM --> C[Citation Guard]
     C --> A[Final Answer]
 
@@ -19,11 +22,17 @@ flowchart TD
     P --> CH[Chunking]
     CH --> E[BGE Embeddings]
     E --> Q
+```
 
 2. Request Lifecycle
 Upload
-PDF → PyMuPDF → Sentence-aware chunks → BGE embeddings
-→ User Documents Qdrant collection → Ready
+
+PDF → PyMuPDF → sentence-aware chunks → BGE embeddings
+→ user_documents Qdrant collection → Ready
+
+Uploaded documents store session_id, document_id, document name,
+page number, and ingestion timestamp.
+
 Statute Question
 Question → Query Router → Dense + BM25 → RRF
 → Cross-Encoder → Ollama → Citation Guard → Answer
@@ -31,8 +40,8 @@ Question → Query Router → Dense + BM25 → RRF
 Explicit section queries can use direct BNSS section lookup.
 
 Document Question
-Question → Document Scope → User-document Qdrant
-→ Cross-Encoder → Ollama → Citation Validation → Answer
+Question → Document scope → User-document Qdrant
+→ Cross-Encoder → Ollama → Citation validation → Answer
 
 User documents are kept separate from the BNSS statute corpus.
 
@@ -73,13 +82,14 @@ BM25: lexical retrieval.
 RRF: combines rankings (k=60).
 Cross-Encoder: reranks candidates.
 Citation Guard: validates generated citations.
+
 5. Main Components
-Component	Technology
-API	FastAPI
-PDF parsing	PyMuPDF
-Embeddings	BAAI/bge-base-en-v1.5
-Vector store	Qdrant
-Lexical search	BM25
-Reranker	ms-marco-MiniLM-L-6-v2
-LLM	Ollama llama3.2:3b
-Frontend	React
+Component	     Technology
+API	              FastAPI
+PDF parsing	      PyMuPDF
+Embeddings	      BAAI/bge-base-en-v1.5
+Vector store      Qdrant
+Lexical search	  BM25
+Reranker	      ms-marco-MiniLM-L-6-v2
+LLM	Ollama        llama3.2:3b
+Frontend	      React
