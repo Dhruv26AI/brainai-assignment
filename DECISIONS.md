@@ -171,3 +171,11 @@ With additional development time, the main priorities would be:
 5. Build the React frontend with streaming responses, conversation history, uploads, citations, and the forms panel.
 6. Improve latency through caching, optimized reranking, and asynchronous processing.
 7. Add more evaluation questions and adversarial tests for citation and retrieval failures.
+
+8. ### CI / Self-Hosted Runner
+
+Status: Partial
+
+A GitHub Actions self-hosted runner was successfully registered and connected to the repository. The runner reached the `Listening for Jobs` state.
+
+However, the CI workflow was not fully integrated and validated because the overall project was not completed. Therefore, this part is marked as partial rather than fully implemented.
